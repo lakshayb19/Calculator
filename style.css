@@ -1,0 +1,55 @@
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4,4,4);
+    padding: 20px;
+    border-radius: 25px;
+}
+.display{
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    height: 100px;
+    width: 310px;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: roboto;
+}
+button{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 25%;
+    border: none;
+    font-size:2em;
+    background-color: grey;
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+}
+.operator{
+    color: white;
+    background-color: orange;
+}
+.row{
+    display: flex;
+    padding: 5px;
+    gap:5px;
+}
+button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(rgb( 0 0 0/40%) 0 0)
+}
